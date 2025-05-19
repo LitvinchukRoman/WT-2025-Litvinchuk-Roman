@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="uk">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Компактна картка викладача</title>
+    <style>
+        .teacher-card-compact {
+            display: inline-block; /* Щоб картки розміщувалися в один рядок */
+            border: 1px solid #ccc;
+            border-radius: 5px;
+            padding: 10px;
+            margin-right: 10px; /* Відступ між картками */
+            text-align: center;
+        }
+
+        .teacher-card-compact img {
+            width: 80px; /* Розмір зображення */
+            height: 80px;
+            border-radius: 50%; /* Кругле зображення */
+            object-fit: cover; /* Обрізати зображення під форму кола */
+            margin-bottom: 5px;
+        }
+
+        .teacher-card-compact .name {
+            font-weight: bold;
+            margin-bottom: 5px;
+        }
+
+        .teacher-card-compact .details-link {
+            color: blue;
+            text-decoration: none;
+            font-size: 0.9em;
+        }
+
+        .teacher-card-compact .details-link:hover {
+            text-decoration: underline;
+        }
+    </style>
+</head>
+<body>
+
+    <h2>Компактні картки викладачів</h2>
+
+    <div class="teacher-card-compact">
+        <img src="placeholder-image.png" alt="Фото викладача 1">
+        <div class="name">Іванов Іван Петрович</div>
+        <a href="#" class="details-link">докладніше</a>
+    </div>
+
+    <div class="teacher-card-compact">
+        <img src="placeholder-image.png" alt="Фото викладача 2">
+        <div class="name">Петрова Марія Степанівна</div>
+        <a href="#" class="details-link">докладніше</a>
+    </div>
+
+    <div class="teacher-card-compact">
+        <img src="placeholder-image.png" alt="Фото викладача 3">
+        <div class="name">Сидоренко Олена Василівна</div>
+        <a href="#" class="details-link">докладніше</a>
+    </div>
+
+    </body>
+</html>
